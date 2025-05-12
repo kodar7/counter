@@ -4,4 +4,34 @@
 .requirements/
 history.txt
 node_modules
+clarinet.bash
 
+# Clarinet project build files
+.clarinet/db
+.clarinet/cache
+.clarinet/stacks-node.log
+.clarinet/deployments/
+
+# Clarinet node logs
+*.log
+
+# Clarinet test outputs
+tests/output/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore any sensitive environment or bash files
+.env
+.bashrc
+.bash_profile
+.zshrc
+
+# Node-related (if using JavaScript tests or tooling)
+node_modules/
+package-lock.json
